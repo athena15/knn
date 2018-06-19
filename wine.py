@@ -4,6 +4,8 @@ import pandas as pd
 import requests
 from io import StringIO
 
+# Adding a note so I can commit changes
+
 # Import wine classification data from UC Irvine's website
 col_names = ['Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids',
              'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280/OD315 of diluted wines',
