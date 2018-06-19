@@ -12,6 +12,7 @@ url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data'
 s = requests.get(url).text
 df = pd.read_csv(StringIO(s), names=col_names)
 
+
 # Creating a column denoting whether a wine is above the median alcohol percentage
 def high_alc(x):
 	if x >= 13.05:
